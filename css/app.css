@@ -1,0 +1,111 @@
+:root {
+	--colorFondo: #0c142c;
+	--colorPrimario: #1eb7e4;
+	--colorAzulClaro: #202c3c;
+}
+
+/* Generales */
+
+html {
+	font-size: 62.5%;
+	/* scroll-behavior: smooth; */
+}
+
+body {
+	background-color: var(--colorFondo);
+	/* font-family: 'Raleway', sans-serif; */
+
+	/* font-family: 'Playfair Display', serif; */
+	font-family: 'Roboto', sans-serif;
+	
+	font-size: 1.6rem;
+}
+
+.seccion {
+	min-height: 65rem;
+}
+
+.icono {
+	max-width: 8rem;
+	height: 8rem;
+}
+
+/* -------------------------------------------- */
+
+/* Utiliades */
+.color-primario {
+	color: var(--colorPrimario);
+}
+
+.color-claro{
+	background-color: var(--colorAzulClaro);
+}
+
+/* -------------------------------------------- */
+
+/* ABOUT ME */
+@media(max-width: 768px){
+	.about-me__descripcion {
+		text-align: center;
+	}
+}
+
+/* -------------------------------------------- */
+
+/* portafolio */
+.portfolio__imagen {
+	height: 20rem;
+	object-fit: cover;
+}
+
+.portfolio__icono {
+	max-width: 5rem;
+	height: 5rem;
+}
+
+/* -------------------------------------------- */
+
+/* Skills */
+
+.skill__icono {
+	background-color: var(--colorAzulClaro);
+}
+
+.skill {
+	transition-property: transform ease-in-out;
+	transition-duration: 300ms;
+}
+
+.skill:hover {
+	/* transform: rotate(-4deg) scale(1.2); */
+	transform: scale(1.15);
+}
+
+/* -------------------------------------------- */
+
+/* education */
+@media(max-width: 768px){
+	.education {
+		min-height: 22rem;
+	}
+}
+
+/* -------------------------------------------- */
+
+/* Contacto */
+
+@media(max-width: 768px){
+	.contact {
+		min-height: 22rem;
+	}
+}
+
+
+/* -------------------------------------------- */
+
+/* Footer */
+.footer {
+	border-top: 1px solid gray;
+}
+
+/* -------------------------------------------- */
