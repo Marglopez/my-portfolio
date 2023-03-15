@@ -41,23 +41,29 @@ body {
 	background-color: var(--colorAzulClaro);
 }
 
+/* Navegacion */
+
+.imagen-idioma {
+	max-width: 4rem;
+}
+
 /* -------------------------------------------- */
 
-/* ABOUT ME */
+/* SOBRE MI */
 @media(max-width: 768px){
-	.about-me__descripcion {
+	.sobre-mi__descripcion {
 		text-align: center;
 	}
 }
 
-.about-me__foto {
+.sobre-mi__foto {
 	height: 90%;
 	width: 70%;
 	object-fit: cover;
 }
 
 /* @media (max-width: 576px) { 
-	.about-me__foto {
+	.sobre-mi__foto {
 		height: 100%;
 	}
 } */
@@ -65,12 +71,12 @@ body {
 /* -------------------------------------------- */
 
 /* portafolio */
-.portfolio__imagen {
+.portafolio__imagen {
 	height: 20rem;
 	object-fit: cover;
 }
 
-.portfolio__icono {
+.portafolio__icono {
 	max-width: 5rem;
 	height: 5rem;
 }
@@ -79,25 +85,25 @@ body {
 
 /* Skills */
 
-.skill__icono {
+.habilidad__icono {
 	background-color: var(--colorAzulClaro);
 }
 
-.skill {
+.habilidad {
 	transition-property: transform ease-in-out;
 	transition-duration: 300ms;
 }
 
-.skill:hover {
+.habilidad:hover {
 	/* transform: rotate(-4deg) scale(1.2); */
 	transform: scale(1.15);
 }
 
 /* -------------------------------------------- */
 
-/* education */
+/* educacion */
 @media(max-width: 768px){
-	.education {
+	.educacion {
 		min-height: 22rem;
 	}
 }
