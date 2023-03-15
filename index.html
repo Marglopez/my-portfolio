@@ -16,7 +16,6 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/app.css">
-
 </head>
 
 <body>
@@ -40,13 +39,13 @@
 					<a class="barra-navegacion__link barra-navegacion__educacion text-white text-decoration-none fs-3" href="#educacion">Educación</a>
 					<a class="barra-navegacion__link barra-navegacion__contacto text-white text-decoration-none fs-3" href="#contacto">Contacto</a>
 					
-					<!-- Idioma Espaniol -->
-					<a class="barra-navegacion__link barra-navegacion__espanol" type="button" onclick="CambiarIdioma('es')">
-						<img class="imagen-idioma img-fluid" src="img/icono_spanish.png" alt="Icono espaniol">
+					<!-- Idioma Espanol -->
+					<a class="barra-navegacion__link barra-navegacion__espanol" type="button" data-toggle="tooltip" data-placement="bottom" title="Página en español" onclick="CambiarIdioma('es')">
+						<img class="imagen-idioma imagen-idioma--espanol img-fluid" src="img/icono_mexico.png" alt="Icono español">
 					</a>
 					<!-- Idioma inglés -->
-					<a class="barra-navegacion__link barra-navegacion__ingles" type="button" onclick="CambiarIdioma('en')">
-						<img class="imagen-idioma img-fluid" src="img/icono_english.png" alt="Icono espaniol">
+					<a class="barra-navegacion__link barra-navegacion__ingles" type="button" data-toggle="tooltip" data-placement="bottom" title="Página en inglés" onclick="CambiarIdioma('en')">
+						<img class="imagen-idioma img-fluid" src="img/icono_usa.png" alt="Icono inglés">
 					</a>				
 				</nav>
 			</div>
@@ -65,7 +64,7 @@
 				</h3> <!-- titulo -->
 				
 				<p class="sobre-mi__descripcion text-white mb-3 fs-3 mb-5">
-					Soy un ingeniero TI enfocado en el desarrollo Front-End con 5+ años de experiencia trabajando con tecnologías como <span class="fw-bold color-primario">HTML, CSS, SASS, Bootstrap, TailWind CSS, JavaScript, React, Angular.</span>.
+					Soy un ingeniero TI enfocado en el desarrollo Front-End con 5+ años de experiencia trabajando con tecnologías como <span class="fw-bold color-primario">HTML, CSS, SASS, Bootstrap, TailWind CSS, JavaScript, React, Angular.</span>
 					Realmente disfruto lo que hago y estoy en busca de una oportunidad laboral donde pueda aportar mis conocimientos y crecer tanto personal como profesionalmente.
 				</p>
 
@@ -86,9 +85,13 @@
 						</button>
 						<ul class="dropdown-menu">
 							<!-- Descargar cv espanol -->
-							<li><a class="boton-cv__espanol dropdown-item fs-3" download="MARTIN_GOVEA_CURRICULUM" href="assets/Martin_Govea_Curriculum_espanol.pdf">Español</a></li>
+							<li>
+								<a class="boton-cv__espanol dropdown-item fs-3" download="MARTIN_GOVEA_CURRICULUM" href="assets/Martin_Govea_Curriculum_espanol.pdf">Español</a>
+							</li>
 							<!-- Descargar cv english -->
-							<li><a class="boton-cv__ingles dropdown-item fs-3" download="MARTIN_GOVEA_CURRICULUM_ENGLISH" href="assets/Martin_Govea_Curriculum.pdf">Inglés</a></li>
+							<li>
+								<a class="boton-cv__ingles dropdown-item fs-3 download="MARTIN_GOVEA_CURRICULUM_ENGLISH" href="assets/Martin_Govea_Curriculum.pdf">Inglés</a>
+							</li>
 						</ul>
 					</div>
 
