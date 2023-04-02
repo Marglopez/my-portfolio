@@ -33,10 +33,8 @@ const traduccionIdiomas = {
     },
 
     "sobre-mi__descripcion": {
-        "es": `Soy un ingeniero TI enfocado en el desarrollo Front-End con 5+ años de experiencia trabajando con tecnologías como <span class="fw-bold color-primario">HTML, CSS, SASS, Bootstrap, TailWind CSS, JavaScript, React, Angular.</span>.
-        Realmente disfruto lo que hago y estoy en busca de una oportunidad laboral donde pueda aportar mis conocimientos y crecer tanto personal como profesionalmente.`,
-        "en": `I am an IT engineer focused on Front End Development with 5+ years of experience working with technologies like <span class="fw-bold color-primario">HTML, CSS, SASS, Bootstrap, TailWind CSS, JavaScript, React, Angular</span>.
-        I really enjoy what I do and I am looking for a job opportunity where I can contribute with my knowledge and grow personally and professionally.`
+        "es": `Soy un ingeniero en tecnologías de la Información con 5+ años de experiencia trabajando con tecnologías como <span class="fw-bold color-primario">HTML, CSS, SASS, Bootstrap, Tailwind CSS, JavaScript, React, Angular, PHP, Python, SQL</span>. Realmente disfruto lo que hago y estoy en busca de una oportunidad laboral donde pueda aportar mis conocimientos y crecer tanto personal como profesionalmente.`,
+        "en": `I am an IT Engineer with 5+ years of experience working with technologies like <span class="fw-bold color-primario"> HTML, CSS, SASS, Bootstrap, Tailwind CSS, JavaScript, React, Angular, PHP, Python, SQL</span>. I really enjoy what I do and I am looking for a job opportunity where I can contribute with my knowledge and grow personally and professionally.`
     },
 
     "boton-cv": {
@@ -80,9 +78,9 @@ const traduccionIdiomas = {
         "en": `Web App to manage the appointments of the patients of a veterinary.`
     },
 
-    "proyecto__descripcion--guitarras": {
-        "es": `Diseño de sitio web para consultar información y comprar tus       guitarras favoritas.`,
-        "en": `Website design to consult information and buy guitars.`
+    "proyecto__descripcion--delivery": {
+        "es": `Diseño de sitio web de una aplicación de entrega de comida a domicilio.`,
+        "en": `Website design for a food delivery application.`
     },
 
     // Habilidades
